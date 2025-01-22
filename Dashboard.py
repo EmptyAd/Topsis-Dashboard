@@ -18,6 +18,8 @@ data = data[data['TeamMemberUserNames'].notnull()]
 st.title("Leaderboard Dashboard with TOPSIS")
 st.write("This dashboard displays the leaderboard data with TOPSIS results.")
 
+st.write("Created by Avi Srivastava")
+
 # TOPSIS Implementation
 def topsis(data_pd, weights, impacts):
     if len(weights) != len(impacts) or len(weights) != data_pd.shape[1]:
