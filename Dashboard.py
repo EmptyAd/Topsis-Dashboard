@@ -116,5 +116,5 @@ plt.grid(True, linestyle='--', alpha=0.7)
 st.pyplot(plt)
 plt.clf()
 
-st.markdown("Avi Srivastava")
+st.markdown("### Created by Avi Srivastava")
 
